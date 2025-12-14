@@ -14,7 +14,7 @@ const Footer = () => {
                 <tr>
                   <th className="px-25 py-1">Quick Links</th>
                   <th className="px-25 py-1">Socials</th>
-                  <th className="px-25 py-1">Emails</th>
+                  <th className="px-25 py-1 text-start">Emails</th>
                 </tr>
               </thead>
               <tbody className="font-light text-gray-300">
