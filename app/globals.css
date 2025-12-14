@@ -5,6 +5,10 @@
     --secondary: #E8C1EE,
 }
 
+html{
+  scrollbar-width: none;    
+}
+
 .hide-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;    
