@@ -5,8 +5,11 @@
     --secondary: #E8C1EE,
 }
 
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;    
+}
 
-/* For Chrome, Safari, and Opera */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }

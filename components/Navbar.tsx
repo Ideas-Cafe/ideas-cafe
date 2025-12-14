@@ -69,12 +69,12 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={defaultStyle}>
+      <div className={`${defaultStyle} mix-blend-difference`}>
         <div className="">
           <Logo />
         </div>
         <div>
-          <ul className="flex gap-x-6 mix-blend-difference text-white ">
+          <ul className="flex gap-x-6 text-white ">
             {navItems.map((item) => (
               <li
                 key={item.key}
