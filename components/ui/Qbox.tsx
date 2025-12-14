@@ -4,8 +4,8 @@ import Image from "next/image";
 
 //ICONS
 import DownArrow from "@/public/icons/Down-Arrow.svg";
-const Qbox = ({ icon = ".", value = "", desc = "" }) => {
-  const [isActive, setisActive] = useState(false);
+const Qbox = ({ icon = ".", value = "", desc = "", active = "" }) => {
+  const [isActive, setisActive] = useState(active === "true" || false);
 
   const buttonPress = () => {
     setisActive(!isActive);
