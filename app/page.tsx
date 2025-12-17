@@ -13,7 +13,7 @@ export default function Home() {
         }}
         id="Home"
       >
-        <div className="text-center space-y-2 text-amber-100">
+        <div className="text-center space-y-2 text-amber-100 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
           <p className="text-5xl font-bold mb-4">
             Ignite Your Passion. Shape <br /> the Future
           </p>

@@ -9,7 +9,7 @@ const Events = () => {
         <div className="py-18 flex justify-center items-center">
           <p className="text-4xl font-bold mb-4">Made For Dreamers Like You</p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
           {" "}
           <Image
             src={mentorImage}
@@ -26,7 +26,7 @@ const Events = () => {
             that can inspire and guide your own path forward.
           </p>
         </div>
-        <div className="flex justify-center items-center mt-35 mb-10">
+        <div className="flex justify-center items-center mt-35 mb-10 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
           {" "}
           <Image
             src={collaborationImage}
@@ -46,7 +46,7 @@ const Events = () => {
             encouraged - it's the heart of how <br /> great ideas come to life.
           </p>
         </div>
-        <div className="flex justify-center items-center mt-35 mb-10">
+        <div className="flex justify-center items-center mt-35 mb-10 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
           {" "}
           <Image
             src={networkingImage}
