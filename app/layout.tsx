@@ -10,7 +10,11 @@ import JoinCommunity from "./Community/Join_Community/page";
 import Navbar from "@/components/Navbar";
 import Questions from "./Questions/page";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>

@@ -52,7 +52,7 @@ const Navbar = () => {
     { key: "04", label: "Community", href: "#Community" },
   ];
 
-  const changPage = (page) => {
+  const changPage = (page: string) => {
     router.push(page);
   };
 
@@ -91,7 +91,7 @@ const Navbar = () => {
           <Button
             className="h-3 text-sm text-black"
             value="Join the Community"
-            onClick={() => changPage("/join")}
+            func={() => changPage("/join")}
           />
         </div>
       </div>

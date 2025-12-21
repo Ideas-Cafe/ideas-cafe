@@ -47,10 +47,5 @@ html{
 .reveal{
     animation: slide-pop linear;
     animation-timeline: view();
-    animation-range: entry 20% cover 80%;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
+    animation-range: entry 0% cover 40%;
 }
