@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
-  const bg_Image = "/pictures/Background.png";
+  const bg_Image = "/pictures/Background3.png";
   return (
     <>
       <div
