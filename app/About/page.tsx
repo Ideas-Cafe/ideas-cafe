@@ -13,11 +13,11 @@ const About = () => {
         id="About"
       >
         <div className="text-center space-y-2 text-black ">
-          <p className="text-4xl font-bold mb-4 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
+          <p className="text-4xl max-sm:mx-2 max-sm:text-2xl font-bold mb-4 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
             The Story Behind Ideas Cafe: How We're <br /> Creating Space for the
             Next Generation of <br /> Innovators
           </p>
-          <p className="text-md font-normal mb-8 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
+          <p className="text-md max-sm:mx-1 max-sm:text-sm font-normal mb-8 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
             Ideas Café is more than a community, it's a space where young people
             come together to explore the <br /> possibilities of technology,
             entertainment, and design and with sustainability in mind. We

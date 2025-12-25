@@ -12,10 +12,10 @@ const JoinCommunity = () => {
         }}
       >
         <div className="text-amber-50 text-center space-y-4">
-          <p className="text-4xl font-bold text-center">
+          <p className="text-4xl max-sm:text-2xl max-sm:mx-2 font-bold text-center">
             Create, Connect. Redefine what's possible.
           </p>
-          <p className="mx-30">
+          <p className="mx-30 max-sm:mx-5">
             Connect with passionate creators innovators and visionaries who are
             pushing boundaries, sharing ideas, and <br /> building what's next.
             Whether you're just starting out or already making waves, this is

@@ -6,7 +6,7 @@ const Blank2 = () => {
         id="blank"
       >
         <div className="text-amber-50">
-          <p className="text-4xl font-bold text-center">
+          <p className="text-4xl max-sm:text-2xl font-bold text-center">
             "SHARE YOUR IDEAS, JOIN THE <br /> DISCUSSION, BUILD THE FUTURE"
           </p>
         </div>

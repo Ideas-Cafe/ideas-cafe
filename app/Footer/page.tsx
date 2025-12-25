@@ -2,45 +2,70 @@ import Logo from "@/components/ui/Logo";
 const Footer = () => {
   return (
     <>
-      <div className="w-full text-white bg-black p-10 border-t-[0.1px] border-gray-800">
+      <div className="w-full text-white bg-black p-10 max-sm:p-5 border-t-[0.1px] border-gray-800">
         <div className="">
           {" "}
           <div className="h-8">
-            <Logo font="font-bold text-xl" className="w-5 h-5" />
+            <Logo
+              font="font-bold text-xl"
+              className="w-5 h-5 max-sm:w-3 max-sm:h-3"
+            />
           </div>
-          <div className="flex h-35 justify-center items-center">
+          <div className="flex h-35 max-sm:h-30 justify-center items-center">
             <table className="">
               <thead>
                 <tr>
-                  <th className="px-25 py-1">Quick Links</th>
-                  <th className="px-25 py-1">Socials</th>
-                  <th className="px-25 py-1 text-start">Emails</th>
+                  <th className="max-sm:text-sm px-25 py-1 max-sm:px-3 max-sm:py-0.5">
+                    Quick Links
+                  </th>
+                  <th className="max-sm:text-sm px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    Socials
+                  </th>
+                  <th className="max-sm:text-sm px-25 py-1 max-sm:px-5 max-sm:py-0.5 text-start">
+                    Emails
+                  </th>
                 </tr>
               </thead>
               <tbody className="font-light text-gray-300">
                 <tr>
-                  <td className="px-25 py-1">Home</td>
-                  <td className="px-25 py-1">Discord</td>
-                  <td className="px-25 py-1">Ideascafe@gmail.com</td>
+                  <td className="max-sm:text-xs px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    Home
+                  </td>
+                  <td className="max-sm:text-xs px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    Discord
+                  </td>
+                  <td className="max-sm:text-xs px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    Ideascafe@gmail.com
+                  </td>
                 </tr>
                 <tr>
-                  <td className="px-25 py-1">About</td>
-                  <td className="px-25 py-1">X</td>
+                  <td className="max-sm:text-xs px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    About
+                  </td>
+                  <td className="max-sm:text-xs px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    X
+                  </td>
                 </tr>
                 <tr>
-                  <td className="px-25 py-1">Events</td>
-                  <td className="px-25 py-1">YouTube</td>
+                  <td className="max-sm:text-xs px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    Events
+                  </td>
+                  <td className="max-sm:text-xs px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    YouTube
+                  </td>
                 </tr>
                 <tr>
-                  <td className="px-25 py-1">Community</td>
+                  <td className="max-sm:text-xs px-25 py-1 max-sm:px-5 max-sm:py-0.5">
+                    Community
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center bg-black text-white w-full h-15 border-t-[0.1px] border-gray-800">
-        <p className="text-center text-sm font-light text-gray-400">
+      <div className="flex justify-center items-center bg-black text-white w-full h-15 max-sm:h-10 border-t-[0.1px] border-gray-800">
+        <p className="max-sm:text-xs text-center text-sm font-light text-gray-400">
           Designed Carfully by: Nabil Danesi 2025
         </p>
       </div>

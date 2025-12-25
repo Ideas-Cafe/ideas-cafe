@@ -60,7 +60,7 @@ const Questions = () => {
         <div className="flex justify-center items-center">
           <div className="text-center space-y-1.5 my-10">
             <p className="text-3xl font-medium">Got Questions ?</p>
-            <p className="text-sm font-normal text-amber-900">
+            <p className="text-sm max-sm:mx-5 font-normal text-amber-900">
               We've got answers. Find everything you need to know about joining
               and being part <br /> of Ideas Cafe community.
             </p>

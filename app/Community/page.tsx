@@ -11,10 +11,10 @@ const Community = () => {
     <>
       <div className="bg-amber-50 h-170" id="Community">
         <div className="py-13 flex-1 justify-center items-center">
-          <p className="text-center text-4xl font-bold">
+          <p className="text-center text-4xl max-sm:text-2xl max-sm:mx-5 font-bold">
             Be Part of Something Bigger
           </p>
-          <p className="text-center text-amber-800 font-medium mx-30 my-4">
+          <p className="text-center text-amber-800 font-medium mx-30 max-sm:mx-5 max-sm:text-sm my-4">
             A space built for creators, innovators, and dreamers who believe in
             shaping the future through technology, design, and <br />{" "}
             creativity. At ideas Cafe, every idea matters, every cnnection

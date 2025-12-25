@@ -63,7 +63,7 @@ const Navbar = () => {
     ? "transition-all duration-200 translate-y-0"
     : "transition-all duration-200 translate-y-[-100px]";
   const defaultStyle =
-    "flex fixed top-2.5 left-0 z-50 ml-10 w-full h-10 justify-center items-center gap-x-40 text-white" +
+    "flex fixed top-2.5 left-0 z-50 ml-10 w-full h-10 justify-center items-center gap-x-40 max-md:gap-x-12 text-white" +
     " " +
     dependantStyle;
 
