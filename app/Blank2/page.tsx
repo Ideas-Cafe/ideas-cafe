@@ -7,7 +7,8 @@ const Blank2 = () => {
       >
         <div className="text-amber-50">
           <p className="text-4xl max-sm:text-2xl font-bold text-center">
-            "SHARE YOUR IDEAS, JOIN THE <br /> DISCUSSION, BUILD THE FUTURE"
+            "SHARE YOUR IDEAS, JOIN THE <br className="max-sm:hidden" />{" "}
+            DISCUSSION, BUILD THE FUTURE"
           </p>
         </div>
       </div>

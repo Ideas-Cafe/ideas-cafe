@@ -6,8 +6,8 @@ const Events = () => {
   return (
     <>
       <div className="w-full bg-amber-50" id="Event">
-        <div className="py-18 flex justify-center items-center">
-          <p className="text-4xl max-sm:text-3xl max-sm:text-center font-bold mb-4">
+        <div className="py-18 max-sm:py-10 flex justify-center items-center">
+          <p className="text-4xl max-sm:text-3xl max-sm:text-center max-sm:mx-1 font-bold mb-4">
             Made For Dreamers Like You
           </p>
         </div>
@@ -26,8 +26,9 @@ const Events = () => {
           </p>
           <p className="text-amber-800 font-medium max-sm:text-sm text-center mx-10 max-sm:mx-5 my-4">
             Connect with people ahead of you in your chosen industry, learn from
-            the jouneys, gain valuable insights, <br /> and build relationships
-            that can inspire and guide your own path forward.
+            the jouneys, gain valuable insights,{" "}
+            <br className="max-sm:hidden" /> and build relationships that can
+            inspire and guide your own path forward.
           </p>
         </div>
         <div className="flex max-sm:mx-5 justify-center items-center mt-35 max-sm:mt-5 mb-10 max-sm:mb-0 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
@@ -45,9 +46,11 @@ const Events = () => {
           </p>
           <p className="text-amber-800 font-medium max-sm:text-sm text-center mx-30 max-sm:mx-5 my-4">
             Connect with other passionate younge creators, share ideas. and work
-            together on projects that challenge your <br /> creativity and
-            expand your experoence. At Ideas Cafe, teamwork isn't just
-            encouraged - it's the heart of how <br /> great ideas come to life.
+            together on projects that challenge your{" "}
+            <br className="max-sm:hidden" /> creativity and expand your
+            experoence. At Ideas Cafe, teamwork isn't just encouraged - it's the
+            heart of how <br className="max-sm:hidden" /> great ideas come to
+            life.
           </p>
         </div>
         <div className="flex max-sm:mx-5 justify-center items-center mt-35 max-sm:mt-5 mb-10 max-sm:mb-0 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
@@ -65,9 +68,10 @@ const Events = () => {
           </p>
           <p className="text-amber-800 font-medium text-center max-sm:text-sm mx-30 max-sm:mx-5 my-4">
             Meet and grow with like minded young people who want to create,
-            innovate, and build together - sharing <br /> ideas, collaborating
-            on projects,a nd pushing each other to new heights in technology,
-            design and <br />
+            innovate, and build together - sharing{" "}
+            <br className="max-sm:hidden" /> ideas, collaborating on projects,a
+            nd pushing each other to new heights in technology, design and{" "}
+            <br className="max-sm:hidden" />
             entertainment. At ideas Cafe, every connection is a chance to learn,
             inspire and turnbold visions into reality.
           </p>

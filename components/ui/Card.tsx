@@ -4,7 +4,7 @@ const Card = ({ color = "", title = "", description = "", icon = "" }) => {
   return (
     <>
       <div
-        className={`rounded-3xl p-5 w-84 h-90 max-sm:w-69 ${color} space-y-5`}
+        className={`rounded-3xl p-5 w-84 h-90 max-sm:w-69 max-sm:h-84 ${color} space-y-5`}
       >
         <div className="flex mt-4 justify-center items-center w-14 h-14 shadow rounded-2xl">
           <Image src={icon} alt="No icon." width={28} height={28} />

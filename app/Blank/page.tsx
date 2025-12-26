@@ -7,8 +7,8 @@ const Blank = () => {
       >
         <div className="text-amber-50">
           <p className="text-4xl max-sm:text-2xl font-bold text-center">
-            "BUILD CAREERS FOR THE FUTURE <br /> OF WORK, FOR A SUSTAINABLE{" "}
-            <br />
+            "BUILD CAREERS FOR THE FUTURE <br className="max-sm:hidden" /> OF
+            WORK, FOR A SUSTAINABLE <br className="max-sm:hidden" />
             FUTURE."
           </p>
         </div>
