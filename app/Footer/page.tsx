@@ -8,10 +8,10 @@ const Footer = () => {
           <div className="h-8">
             <Logo
               font="font-bold text-xl"
-              className="w-5 h-5 max-sm:w-3 max-sm:h-3"
+              className="w-5 h-5 max-sm:w-4 max-sm:h-4"
             />
           </div>
-          <div className="flex h-35 max-sm:h-30 justify-center items-center">
+          <div className="flex max-sm:pl-7 h-35 max-sm:h-30 justify-center items-center">
             <table className="">
               <thead>
                 <tr>

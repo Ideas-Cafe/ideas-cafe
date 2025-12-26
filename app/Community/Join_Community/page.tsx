@@ -24,7 +24,7 @@ const JoinCommunity = () => {
           </p>
           <Button
             value="Let's Build Together"
-            className="font-medium my-3 text-sm"
+            className="font-medium my-3 text-sm max-sm:w-37 max-sm:h-12"
           />
         </div>
       </div>

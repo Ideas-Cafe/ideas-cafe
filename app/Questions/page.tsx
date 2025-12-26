@@ -78,7 +78,10 @@ const Questions = () => {
         <div className="flex justify-center items-center my-10">
           <div className="text-center space-y-4">
             <p>Still have questions? We'd love to hear from you! </p>
-            <Button value="Get in Touch" className="bg-black text-yellow-50" />
+            <Button
+              value="Get in Touch"
+              className="bg-black text-yellow-50 max-sm:w-30 max-sm:h-13.5"
+            />
           </div>
         </div>
       </div>

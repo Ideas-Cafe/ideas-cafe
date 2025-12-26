@@ -22,11 +22,21 @@ const Community = () => {
             something extraordinary.
           </p>
         </div>
-        <div className="flex mx-4 overflow-x-scroll overflow-y-hidde gap-x-6 hide-scrollbar">
-          <Card icon={chip} color="bg-amber-500" />
-          <Card icon={cinima} color="bg-blue-500" />
-          <Card icon={art} color="bg-purple-500" />
-          <Card icon={design} color="bg-green-500" />
+        <div className="flex w-full px-4 max-sm:px-2 max-sm:-mt-12 overflow-x-scroll overflow-y-hidden gap-x-6 max-sm:gap-x-3 hide-scrollbar">
+          <div>
+            <Card icon={chip} color="bg-amber-500" />
+          </div>
+          <div>
+            <Card icon={cinima} color="bg-blue-500" />
+          </div>
+
+          <div>
+            <Card icon={art} color="bg-purple-500" />
+          </div>
+
+          <div>
+            <Card icon={design} color="bg-green-500" />
+          </div>
         </div>
       </div>
     </>

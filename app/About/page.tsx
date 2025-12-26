@@ -28,7 +28,7 @@ const About = () => {
             value="Get to Know Us"
             icon={Right_Arrow}
             func={TestFunction}
-            className="text-white bg-black"
+            className="text-white bg-black max-sm:w-40 max-sm:h-15"
           />
         </div>
       </div>
