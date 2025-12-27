@@ -16,7 +16,7 @@ const Questions = () => {
       value: "What is Ideas Cafe?",
       desc: "Ideas Cafe is a vibrant creative community designed for young people passionate about technology, entertainment, and design.We bring together aspiring creators, innovators, and dreamers to collaborate, learn from industry professionals, and exploe exciting possibilities in the digital and creative space.",
       icon: Stars,
-      active: "true",
+      active: "false",
     },
     {
       key: "02",
@@ -56,11 +56,13 @@ const Questions = () => {
   ];
   return (
     <>
-      <div className="w-full min-h-250 bg-amber-50 py-10">
+      <div className="w-full min-h-250 max-sm:min-h-200 bg-amber-50 py-10">
         <div className="flex justify-center items-center">
-          <div className="text-center space-y-1.5 my-10">
-            <p className="text-3xl font-medium">Got Questions ?</p>
-            <p className="text-sm max-sm:mx-5 font-normal text-amber-900">
+          <div className="text-center space-y-1.5 my-10 max-sm:my-7">
+            <p className="text-3xl max-sm:text-[25.2px] font-medium">
+              Got Questions ?
+            </p>
+            <p className="text-sm max-sm:mx-5 max-sm:text-[12px] font-normal text-amber-900">
               We've got answers. Find everything you need to know about joining
               and being part <br /> of Ideas Cafe community.
             </p>
@@ -76,11 +78,11 @@ const Questions = () => {
           />
         ))}
         <div className="flex justify-center items-center my-10">
-          <div className="text-center space-y-4">
+          <div className="text-center max-sm:text-[12px] space-y-4">
             <p>Still have questions? We'd love to hear from you! </p>
             <Button
               value="Get in Touch"
-              className="bg-black text-yellow-50 max-sm:w-30 max-sm:h-13.5"
+              className="whitespace-nowrap text-[15px] bg-black text-yellow-50 max-sm:w-35 max-sm:h-8"
             />
           </div>
         </div>

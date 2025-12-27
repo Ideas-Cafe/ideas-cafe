@@ -13,18 +13,18 @@ const Qbox = ({ icon = ".", value = "", desc = "", active = "" }) => {
   };
 
   const ActiveBox = isActive
-    ? "h-38 max-sm:h-53 transition-all duration-200"
+    ? "h-38 max-sm:h-50 transition-all duration-200"
     : "transition-all duration-200";
   const AppliedStyle = isActive
     ? "transition-all duration-200"
     : "hidden transition-all duration-200";
 
   const defaultBox =
-    "h-20 max-sm:h-28 bg-[#FFFDF3] mx-20 max-sm:mx-3 rounded-xl shadow my-4" +
+    "h-20 bg-[#FFFDF3] mx-20 max-sm:mx-3 rounded-xl shadow my-4" +
     " " +
     ActiveBox;
   const defaultText =
-    "text-sm max-sm:text-xs max-sm:h-28 max-sm:overflow-y-auto font-normal text-amber-900 mx-17 -mt-3.5" +
+    "text-sm max-sm:text-[10px] max-sm:h-28 max-sm:overflow-y-auto font-normal text-amber-900 mx-17 -mt-3.5" +
     " " +
     AppliedStyle;
 
@@ -37,7 +37,9 @@ const Qbox = ({ icon = ".", value = "", desc = "", active = "" }) => {
               <Image src={icon} alt="ic.$" width={29} height={29} />
             </div>
             <div>
-              <p className="font-normal max-sm:text-sm">{value || "value"}</p>
+              <p className="font-normal max-sm:text-[12px]">
+                {value || "value"}
+              </p>
             </div>
           </div>
           <div className="mr-8 mt-4">

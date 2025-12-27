@@ -11,11 +11,11 @@ const JoinCommunity = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="text-amber-50 text-center space-y-4">
-          <p className="text-4xl max-sm:text-2xl max-sm:mx-1 font-bold text-center">
+        <div className="text-amber-50 text-center space-y-4 max-sm:space-y-8">
+          <p className="text-4xl max-sm:text-[22.2px] max-sm:mx-1 font-bold text-center">
             Create, Connect. Redefine what's possible.
           </p>
-          <p className="mx-30 max-sm:mx-5">
+          <p className="mx-30 max-sm:text-[12px] max-sm:mx-5">
             Connect with passionate creators innovators and visionaries who are
             pushing boundaries, sharing ideas, and{" "}
             <br className="max-sm:hidden" /> building what's next. Whether
@@ -25,7 +25,7 @@ const JoinCommunity = () => {
           </p>
           <Button
             value="Let's Build Together"
-            className="font-medium my-3 text-sm max-sm:w-37 max-sm:h-12"
+            className="whitespace-nowrap font-medium my-3 text-sm max-sm:w-40 max-sm:h-8 max-sm:px-5"
           />
         </div>
       </div>

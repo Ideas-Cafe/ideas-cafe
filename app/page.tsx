@@ -25,7 +25,7 @@ export default function Home() {
           </p>
           <Button
             value="Join the commuinity"
-            className="whitespace-nowrap max-sm:w-40 max-sm:px-5 max-sm:text-sm"
+            className="whitespace-nowrap max-sm:w-40 max-sm:h-8 max-sm:px-5 max-sm:text-sm"
           />
         </div>
       </div>

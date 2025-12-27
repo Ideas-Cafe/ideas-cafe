@@ -18,13 +18,14 @@ const Events = () => {
             alt="Picture of the author"
             width={293}
             height={266}
+            className="max-sm:w-50 max-sm:h-35"
           />
         </div>
         <div className="py-13 flex-1 justify-center items-center">
-          <p className="text-center text-3xl max-sm:text-2xl font-semibold">
+          <p className="text-center text-3xl max-sm:text-[22.2px] font-semibold">
             Mentor Moments
           </p>
-          <p className="text-amber-800 font-medium max-sm:text-sm text-center mx-10 max-sm:mx-5 my-4">
+          <p className="text-amber-800 font-medium max-sm:text-[11px] text-center mx-10 max-sm:mx-5 my-4">
             Connect with people ahead of you in your chosen industry, learn from
             the jouneys, gain valuable insights,{" "}
             <br className="max-sm:hidden" /> and build relationships that can
@@ -38,13 +39,14 @@ const Events = () => {
             alt="Picture of the author"
             width={530}
             height={286}
+            className="max-sm:w-50"
           />
         </div>
         <div className="py-13 flex-1 justify-center items-center">
-          <p className="text-center text-3xl max-sm:text-2xl font-semibold">
+          <p className="text-center text-3xl max-sm:text-[22.2px] font-semibold">
             Collaboration Opprtunities
           </p>
-          <p className="text-amber-800 font-medium max-sm:text-sm text-center mx-30 max-sm:mx-5 my-4">
+          <p className="text-amber-800 font-medium max-sm:text-[11px] text-center mx-30 max-sm:mx-5 my-4">
             Connect with other passionate younge creators, share ideas. and work
             together on projects that challenge your{" "}
             <br className="max-sm:hidden" /> creativity and expand your
@@ -60,13 +62,14 @@ const Events = () => {
             alt="Picture of the author"
             width={478}
             height={354}
+            className="max-sm:w-50"
           />
         </div>
         <div className="py-13 flex-1 justify-center items-center">
-          <p className="text-center text-3xl max-sm:text-2xl font-semibold">
+          <p className="text-center text-3xl max-sm:text-[22.2px] font-semibold">
             Networking Spaces
           </p>
-          <p className="text-amber-800 font-medium text-center max-sm:text-sm mx-30 max-sm:mx-5 my-4">
+          <p className="text-amber-800 font-medium text-center max-sm:text-[11px] mx-30 max-sm:mx-5 my-4">
             Meet and grow with like minded young people who want to create,
             innovate, and build together - sharing{" "}
             <br className="max-sm:hidden" /> ideas, collaborating on projects,a

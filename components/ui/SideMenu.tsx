@@ -25,7 +25,7 @@ export default function SideMenu() {
 
       {/* Menu Overlay */}
       <div
-        className={`fixed inset-0 z-50 transition-all duration-100 ease-in-out ${
+        className={`fixed inset-0 z-50 transition-all duration-300 ease-in-out ${
           isOpen ? "visible" : "invisible"
         }`}
       >
