@@ -43,7 +43,7 @@ const Events = () => {
           />
         </div>
         <div className="py-13 flex-1 justify-center items-center">
-          <p className="text-center text-3xl max-sm:text-[22.2px] font-semibold">
+          <p className="text-center text-3xl max-sm:mx-2 max-sm:text-[22.2px] font-semibold">
             Collaboration Opprtunities
           </p>
           <p className="text-amber-800 font-medium max-sm:text-[11px] text-center mx-30 max-sm:mx-5 my-4">

@@ -18,7 +18,7 @@ const About = () => {
             <br className="max-sm:hidden" /> Creating Space for the Next
             Generation of <br className="max-sm:hidden" /> Innovators
           </p>
-          <p className="text-md max-sm:mx-1.5 max-sm:text-[10px] font-normal mb-8 max-sm:my-8 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
+          <p className="text-md max-sm:mx-4 max-sm:text-[10px] font-normal mb-8 max-sm:my-8 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
             Ideas Café is more than a community, it's a space where young people
             come together to explore the <br className="max-sm:hidden" />{" "}
             possibilities of technology, entertainment, and design and with

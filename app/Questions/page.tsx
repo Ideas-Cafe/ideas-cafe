@@ -48,7 +48,7 @@ const Questions = () => {
     },
     {
       key: "06",
-      value: "Can I collaborate with other members on projects?",
+      value: "Can I collaborate with others?",
       desc: "...",
       icon: Question,
       active: "false",

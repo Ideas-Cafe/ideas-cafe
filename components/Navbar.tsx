@@ -75,12 +75,12 @@ const Navbar = () => {
   return (
     <>
       <div className={`${defaultStyle} mix-blend-difference`}>
-        <div className="isolation-auto">
+        <div>
           <Logo className="max-sm:hidden" />
           <Image
             src={paper}
-            alt=""
-            className="sm:hidden mb-1"
+            alt="Paper icon"
+            className="fixed left-5 -mt-3.5 sm:hidden"
             width={23}
             height={23}
           />

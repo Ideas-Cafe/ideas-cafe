@@ -37,7 +37,7 @@ const Qbox = ({ icon = ".", value = "", desc = "", active = "" }) => {
               <Image src={icon} alt="ic.$" width={29} height={29} />
             </div>
             <div>
-              <p className="font-normal max-sm:text-[12px]">
+              <p className="font-normal max-sm:text-[12px] max-sm:-mt-1.5">
                 {value || "value"}
               </p>
             </div>

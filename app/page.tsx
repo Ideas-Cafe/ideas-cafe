@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-5xl font-bold mb-4 max-sm:mb-4.5 max-sm:text-[22.5px] max-sm:px-2 max-sm:font-bold max-sm:my-10">
             Ignite Your Passion. Shape <br /> the Future
           </p>
-          <p className="text-md font-normal mb-8 max-sm:mb-5.5 max-sm:mx-5 max-sm:text-[10px]">
+          <p className="text-md font-normal mb-8 max-sm:mb-5.5 max-sm:mx-7 max-sm:text-[10px]">
             Where your minds shape the future of tech, design & entertainmen
             with. Join a <br className="max-sm:hidden" /> vibrant community of
             introverts, creators and dreamers
