@@ -7,6 +7,7 @@ import { useState, useEffect, useCallback } from "react";
 import Button from "./ui/Button";
 import Logo from "./ui/Logo";
 import Link from "next/link";
+import SideMenu from "./ui/SideMenu";
 
 import paper from "@/public/icons/logo.svg";
 import { LuUsers, LuHouse, LuInfo, LuCalendarDays } from "react-icons/lu";
@@ -67,21 +68,21 @@ const Navbar = () => {
     ? "transition-all duration-200 translate-y-0"
     : "transition-all duration-200 translate-y-[-100px]";
   const defaultStyle =
-    "flex fixed top-2.5 left-0 z-50 ml-10 w-full h-10 justify-center items-center gap-x-40 max-md:gap-x-8.5 text-white" +
+    "flex fixed top-2.5 left-0 z-50 ml-10 w-full h-10 justify-center items-center gap-x-40 max-sm:ml-0 max-sm:gap-x-25.5 text-white" +
     " " +
     dependantStyle;
 
   return (
     <>
       <div className={`${defaultStyle} mix-blend-difference`}>
-        <div className="flex-shrink-0">
+        <div className="isolation-auto">
           <Logo className="max-sm:hidden" />
           <Image
             src={paper}
             alt=""
             className="sm:hidden mb-1"
-            width={18}
-            height={18}
+            width={23}
+            height={23}
           />
         </div>
         <div className="">
@@ -97,34 +98,17 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <ul className="flex gap-x-6  max-md:gap-x-5 text-white sm:hidden">
-            {navItems.map((item) => (
-              <li
-                key={item.key}
-                className={`${baseLiStyle} ${
-                  pathname === item.href ? activeLiStyle : ""
-                }`}
-              >
-                <Link href={item.href}>
-                  <item.icon size={18} />
-                </Link>
-              </li>
-            ))}
-          </ul>
         </div>
-        <div>
+        <div className="">
           <Button
             className="h-3 text-sm text-black max-sm:hidden"
             value="Join the Community"
             func={() => changPage("/join")}
           />
-          <Button
-            className="h-3 text-sm text-black sm:hidden max-sm:mr-13.5"
-            value="Join"
-            mobile="true"
-            func={() => changPage("/join")}
-          />
         </div>
+      </div>
+      <div className={`fixed w-[70%] z-50 right-0 pt-[7px] ${dependantStyle}`}>
+        <SideMenu />
       </div>
     </>
   );
