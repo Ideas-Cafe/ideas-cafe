@@ -7,7 +7,7 @@ const Events = () => {
     <>
       <div className="w-full bg-amber-50" id="Event">
         <div className="py-18 max-sm:py-10 flex justify-center items-center">
-          <p className="text-4xl max-sm:text-3xl max-sm:text-center max-sm:mx-1 font-bold mb-4">
+          <p className="text-4xl max-sm:text-2xl max-sm:text-center max-sm:mx-1 font-bold mb-4">
             Made For Dreamers Like You
           </p>
         </div>

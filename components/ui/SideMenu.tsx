@@ -7,10 +7,10 @@ export default function SideMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Events", href: "/events" },
-    { name: "Community", href: "/community" },
+    { name: "Home", href: "#Home" },
+    { name: "About", href: "#About" },
+    { name: "Events", href: "#Events" },
+    { name: "Community", href: "#Community" },
   ];
 
   return (
