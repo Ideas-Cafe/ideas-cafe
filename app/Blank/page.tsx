@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 const Blank = () => {
   return (
     <>
@@ -6,11 +8,17 @@ const Blank = () => {
         id="blank"
       >
         <div className="text-amber-50">
-          <p className="text-4xl max-sm:text-2xl font-bold text-center">
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="text-4xl max-sm:text-2xl font-bold text-center"
+          >
             "BUILD CAREERS FOR THE FUTURE <br className="max-sm:hidden" /> OF
             WORK, FOR A SUSTAINABLE <br className="max-sm:hidden" />
             FUTURE."
-          </p>
+          </motion.p>
         </div>
       </div>
     </>

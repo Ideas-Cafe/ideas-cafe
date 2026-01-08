@@ -1,17 +1,25 @@
+"use client";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import mentorImage from "@/public/pictures/mentor_moments.svg";
 import networkingImage from "@/public/pictures/networking_spaces.svg";
 import collaborationImage from "@/public/pictures/collaboration_opportunities.svg";
 const Events = () => {
   return (
     <>
-      <div className="w-full bg-amber-50" id="Event">
+      <div className="w-full bg-amber-50" id="Events">
         <div className="py-18 max-sm:py-10 flex justify-center items-center">
-          <p className="text-4xl max-sm:text-[20.5px] max-sm:text-center max-sm:mx-1 font-bold mb-4">
+          <p className="text-4xl max-sm:text-[20.15px] max-sm:text-center max-sm:mx-1 font-bold mb-4">
             Made For Dreamers Like You
           </p>
         </div>
-        <div className="flex max-sm:mx-5 justify-center items-center animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="flex max-sm:mx-5 justify-center items-center"
+        >
           {" "}
           <Image
             src={mentorImage}
@@ -20,7 +28,7 @@ const Events = () => {
             height={266}
             className="max-sm:w-50 max-sm:h-35"
           />
-        </div>
+        </motion.div>
         <div className="py-13 flex-1 justify-center items-center">
           <p className="text-center text-3xl max-sm:text-[22.2px] font-semibold">
             Mentor Moments
@@ -32,7 +40,13 @@ const Events = () => {
             inspire and guide your own path forward.
           </p>
         </div>
-        <div className="flex max-sm:mx-5 justify-center items-center mt-35 max-sm:mt-5 mb-10 max-sm:mb-0 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="flex max-sm:mx-5 justify-center items-center mt-35 max-sm:mt-5 mb-10 max-sm:mb-0"
+        >
           {" "}
           <Image
             src={collaborationImage}
@@ -41,7 +55,7 @@ const Events = () => {
             height={286}
             className="max-sm:w-50"
           />
-        </div>
+        </motion.div>
         <div className="py-13 flex-1 justify-center items-center">
           <p className="text-center text-3xl max-sm:mx-2 max-sm:text-[22.2px] font-semibold">
             Collaboration Opprtunities
@@ -55,7 +69,13 @@ const Events = () => {
             life.
           </p>
         </div>
-        <div className="flex max-sm:mx-5 justify-center items-center mt-35 max-sm:mt-5 mb-10 max-sm:mb-0 animate-[slide-pop_2s_ease-in-out_1_alternate_forwards]">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="flex max-sm:mx-5 justify-center items-center mt-35 max-sm:mt-5 mb-10 max-sm:mb-0"
+        >
           {" "}
           <Image
             src={networkingImage}
@@ -64,7 +84,7 @@ const Events = () => {
             height={354}
             className="max-sm:w-50"
           />
-        </div>
+        </motion.div>
         <div className="py-13 flex-1 justify-center items-center">
           <p className="text-center text-3xl max-sm:text-[22.2px] font-semibold">
             Networking Spaces

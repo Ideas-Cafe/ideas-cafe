@@ -18,7 +18,6 @@ const Navbar = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    console.log("Jhii");
     let lastScrollY = window.scrollY;
 
     const controllNavbar = () => {

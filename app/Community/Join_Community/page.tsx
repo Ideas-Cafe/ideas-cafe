@@ -1,4 +1,6 @@
+"use client";
 import Button from "@/components/ui/Button";
+import { motion } from "framer-motion";
 const JoinCommunity = () => {
   const bg_Image = "/pictures/Background2.png";
   return (
@@ -12,17 +14,29 @@ const JoinCommunity = () => {
         }}
       >
         <div className="text-amber-50 text-center space-y-4 max-sm:space-y-8">
-          <p className="text-4xl max-sm:text-[22.2px] max-sm:mx-1 font-bold text-center">
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="text-4xl max-sm:text-[22.2px] max-sm:mx-1 font-bold text-center"
+          >
             Create, Connect. Redefine what's possible.
-          </p>
-          <p className="mx-30 max-sm:text-[12px] max-sm:mx-5">
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="mx-30 max-sm:text-[12px] max-sm:mx-5"
+          >
             Connect with passionate creators innovators and visionaries who are
             pushing boundaries, sharing ideas, and{" "}
             <br className="max-sm:hidden" /> building what's next. Whether
             you're just starting out or already making waves, this is where
             growth meets <br className="max-sm:hidden" /> opportunity - and
             where your hourney truly begins.{" "}
-          </p>
+          </motion.p>
           <Button
             value="Let's Build Together"
             className="whitespace-nowrap font-medium my-3 text-sm max-sm:w-40 max-sm:h-8 max-sm:px-5"

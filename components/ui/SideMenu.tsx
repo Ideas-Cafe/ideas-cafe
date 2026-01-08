@@ -18,7 +18,7 @@ export default function SideMenu() {
       {/* Trigger Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed p-2 text-white right-1 sm:hidden"
+        className="mix-blend-difference fixed p-2 text-white right-1 sm:hidden"
       >
         <Menu size={32} />
       </button>
