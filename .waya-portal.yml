@@ -1,0 +1,42 @@
+product: "Ideas Cafe"
+system: "Customer Portal"
+service_type: ui
+lifecycle: production
+owner: "Frontend Team"
+
+services:
+  - name: ideas-cafe-web
+    path: /
+    runtime: node
+    port: 3000
+
+features:
+  - id: FT-IC-001
+    name: "Landing Page"
+    priority: high
+    status: active
+    screens:
+      - "Home"
+      - "About"
+
+integrations:
+  internal:
+    - service: waya-erp
+      protocol: REST
+  third_party: []
+
+security:
+  - title: "HTTPS Enforced"
+    type: encryption
+    severity: high
+    status: enforced
+
+fraud_rules: []
+
+deploy_checklist:
+  pre:
+    - "Run build"
+    - "Verify env vars"
+  post:
+    - "Smoke test homepage"
+    - "Check error rates"
