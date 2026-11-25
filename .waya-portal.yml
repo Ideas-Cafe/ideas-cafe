@@ -9,6 +9,24 @@ services:
     path: /
     runtime: node
     port: 3000
+    framework: Next.js
+
+modules:
+  - name: pages
+    path: src/pages
+    description: "Next.js page routes and SSR entry points"
+  - name: components
+    path: src/components
+    description: "Shared React UI components"
+  - name: hooks
+    path: src/hooks
+    description: "Custom React hooks for data fetching and state"
+  - name: styles
+    path: src/styles
+    description: "Global and component-scoped CSS modules"
+  - name: api-routes
+    path: src/pages/api
+    description: "Next.js API routes acting as BFF layer"
 
 features:
   - id: FT-IC-001
@@ -18,6 +36,19 @@ features:
     screens:
       - "Home"
       - "About"
+  - id: FT-IC-002
+    name: "User Dashboard"
+    priority: high
+    status: planned
+    screens:
+      - "Dashboard"
+      - "Profile"
+  - id: FT-IC-003
+    name: "Account Overview"
+    priority: medium
+    status: planned
+    screens:
+      - "Account Summary"
 
 integrations:
   internal:
@@ -32,6 +63,21 @@ security:
     status: enforced
 
 fraud_rules: []
+
+flows:
+  - name: "User Login"
+    steps:
+      - "User opens ideas-cafe-web"
+      - "ideas-cafe-web redirects to Entra SSO"
+      - "Entra returns token to ideas-cafe-web"
+      - "ideas-cafe-web calls waya-erp /auth/verify"
+      - "waya-erp returns session"
+  - name: "View Account"
+    steps:
+      - "User clicks Account on ideas-cafe-web"
+      - "ideas-cafe-web calls waya-erp /api/accounts"
+      - "waya-erp returns account data"
+      - "ideas-cafe-web renders Account Summary"
 
 deploy_checklist:
   pre:
